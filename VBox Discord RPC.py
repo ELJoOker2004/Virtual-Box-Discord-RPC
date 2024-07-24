@@ -54,8 +54,14 @@ def main():
                 start_time[window_title] = int(time.time())
                 print(f"VirtualBox window '{window_title}' found. Setting Discord presence.")
 
-        # Rotate through the windows
-        if virtualbox_windows:
+        # Clear RPC if no windows are found
+        if not virtualbox_windows:
+            if start_time:
+                print("No VirtualBox windows found. Clearing Discord presence.")
+                rpc.clear()
+                start_time.clear()
+        else:
+            # Rotate through the windows
             window_title = virtualbox_windows[current_index]
             large_image_key = determine_large_image_key(window_title)
             rpc.update(
