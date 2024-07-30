@@ -4,7 +4,7 @@ import time
 from pywinauto import Desktop
 
 # Configuration
-client_id = '1196387943800131626'  # Replace with your Discord application's client ID
+client_id = '1196387943800131626'
 large_image_key_kali_linux = 'https://i.imgur.com/cPbTgcv.png'  # URL for Kali Linux
 large_image_key_windows_flare = 'https://i.imgur.com/gVetf1Z.png'  # URL for Windows or FLARE
 default_large_image_key = 'https://i.imgur.com/zARBelj.png'  # Default URL
