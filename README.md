@@ -18,9 +18,11 @@ pip install pywinauto
 
 ## How to run
 
-**Simply double  click it, it will open in a hidden cmd**
+**Simply double-click it, it will open in a hidden cmd**
 
-**You can put it in the start-up folder if you want it to be ready always**
+You can put it in the start-up folder if you want it to be ready always
+
+---
 
 #### if you encounter any problem or question feel free to open an issue or contact me directly on Discord: **@eljooker**
 #### Suggestions are welcomed
