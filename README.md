@@ -18,13 +18,13 @@ pip install pywinauto
 
 ## How to run
 
-**Simply open a cmd in the same directory and run**
+**Simply double  click it, it will open in a hidden cmd**
 
 ```cmd
 python "VBox Discord RPC.py"
 ```
 
-**You can create a VBS or batch file to run the script and put it in the start-up folder if you want it to be ready always**
+**You can put it in the start-up folder if you want it to be ready always**
 
 #### if you encounter any problem or question feel free to open an issue or contact me directly on Discord: **@eljooker**
 #### Suggestions are welcomed
