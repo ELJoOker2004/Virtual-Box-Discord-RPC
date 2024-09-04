@@ -20,10 +20,6 @@ pip install pywinauto
 
 **Simply double  click it, it will open in a hidden cmd**
 
-```cmd
-python "VBox Discord RPC.py"
-```
-
 **You can put it in the start-up folder if you want it to be ready always**
 
 #### if you encounter any problem or question feel free to open an issue or contact me directly on Discord: **@eljooker**
